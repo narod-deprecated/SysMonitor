@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+  <superio_ids_natsemi>
+    <device name="Nat. Semi. PC87351 Super IO Fan Sensors" devid="e2" logdev="8"/>
+  </superio_ids_natsemi>
+  <superio_ids_smsc>
+    <device name="SMSC DME1737 Super IO" devid="78"/>
+  </superio_ids_smsc>
+  <superio_ids_smsc_ns>
+    <device name="SMSC FDC37C665 Super IO" devid="65"/>
+  </superio_ids_smsc_ns>
+  <superio_ids_ite>
+    <device name="ITE IT8712F Super IO Sensors" devid="8712" logdev="4">
+      <temperature>
+      </temperature>
+      <voltage>
+      </voltage>
+    </device>
+  </superio_ids_ite>
+  <superio_ids_winbond>
+    <device name="Winbond W83627HF/F/HG/G Super IO Sensors" devid="5200" devid_mask="ff00" logdev="b">
+      <temperature>
+        <in name="CPUTIN" bank="1" index="50" coof="1"/>
+        <in name="SYSTIN" bank="0" index="27" coof="1"/>
+        <in name="AUXTIN" bank="2" index="50" coof="1"/>
+      </temperature>
+      <voltage>
+        <in name="CPUVCore" bank="0" index="20" coof="0.008"/>
+      </voltage>
+    </device>
+    <device name="Winbond W83627DHG-P/W83527HG Super IO Sensors" devid="b070" devid_mask="fff0" logdev="b">
+      <temperature>
+        <in name="CPUTIN" bank="1" index="50" coof="1"/>
+        <in name="SYSTIN" bank="0" index="27" coof="1"/>
+        <in name="AUXTIN" bank="2" index="50" coof="1"/>
+      </temperature>
+      <voltage>
+        <in name="CPUVCore" bank="0" index="20" coof="0.008"/>
+        <in name="CPUAux" bank="0" index="21" coof="0.016"/>
+        <in name="+3.3v" bank="0" index="22" coof="0.016"/>
+        <in name="+5v" bank="0" index="23" coof="0.0269"/>
+        <in name="+12v" bank="0" index="24" coof="0.0611"/>
+      </voltage>
+    </device>
+    <device name="Winbond W83627UHG/NCT6627UD Super IO Sensors" devid="A230" devid_mask="fff0" logdev="b">
+      <temperature>
+      </temperature>
+      <voltage>
+      </voltage>
+    </device>
+  </superio_ids_winbond>
+</body>

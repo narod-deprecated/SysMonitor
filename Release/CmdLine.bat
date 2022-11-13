@@ -1,0 +1,2 @@
+SysMonitor.exe log
+pause

@@ -1,0 +1,35 @@
+﻿Построение начато 31.08.2014 1:37:44.
+Проект "C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\SysMonitor\SysMonitor.vcxproj" в узле 2 (целевые объекты build).
+InitializeBuildStatus:
+  Создание "Release\SysMonitor.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Библиотеки\С++\XML\tinyxml_2_6_2\tinyxml" /I"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Monitoring\Monitoring" /I"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Library\str" /I"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Library\String" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+  main.cpp
+main.cpp(27): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371): см. объявление "sprintf"
+ResourceCompile:
+  Для всех выходных данных обновления не требуется.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\Release\SysMonitor.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Monitoring\Release" Monitoring.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SysMonitor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\Release\SysMonitor.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\Release\SysMonitor.lib" /MACHINE:X86 Release\SysMonitor.res
+  Release\LString.obj
+  Release\strutil.obj
+  Release\Constantes.obj
+  Release\draw_utils.obj
+  Release\main.obj
+  Release\Setting.obj
+  Release\sys_tray.obj
+  Release\Tooltip.obj
+  Release\WorksTab.obj
+  Создание кода
+  Создание кода завершено
+  SysMonitor.vcxproj -> C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\Release\SysMonitor.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\Release\SysMonitor.exe;#1" /manifest Release\SysMonitor.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Файл "Release\SysMonitor.unsuccessfulbuild" удаляется.
+  Обращение к "Release\SysMonitor.lastbuildstate".
+Построение проекта "C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\SysMonitor\SysMonitor.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.08

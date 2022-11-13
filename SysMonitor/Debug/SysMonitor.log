@@ -1,0 +1,19 @@
+﻿Построение начато 18.08.2014 23:11:37.
+Проект "C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\SysMonitor\SysMonitor.vcxproj" в узле 2 (целевые объекты build).
+InitializeBuildStatus:
+  Создание "Debug\SysMonitor.unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Monitoring\Monitoring" /I"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Library\String" /I"C:\Users\Виталий\Documents\Visual Studio 2010\Projects\Library\str" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Constantes.cpp Tooltip.cpp WorksTab.cpp main.cpp
+  main.cpp
+c:\users\виталий\documents\visual studio 2010\projects\monitoring\monitoring\config.h(5): fatal error C1083: Не удается открыть файл включение: tinyxml.h: No such file or directory
+  WorksTab.cpp
+c:\users\виталий\documents\visual studio 2010\projects\monitoring\monitoring\config.h(5): fatal error C1083: Не удается открыть файл включение: tinyxml.h: No such file or directory
+  Tooltip.cpp
+  Constantes.cpp
+c:\users\виталий\documents\visual studio 2010\projects\monitoring\monitoring\config.h(5): fatal error C1083: Не удается открыть файл включение: tinyxml.h: No such file or directory
+  Создание кода...
+Построение проекта "C:\Users\Виталий\Documents\Visual Studio 2010\Projects\SysMonitor\SysMonitor\SysMonitor.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.26

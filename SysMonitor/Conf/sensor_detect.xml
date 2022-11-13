@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<superio>
+  <chip name="National Semiconductor/ITE">
+    <address name="2e"/>
+    <address name="4e"/>
+    <superio_dev name="superio_ids_natsemi"/>
+  </chip>
+  <chip name="SMSC">
+    <address name="2e">
+      55
+    </address>
+    <address name="4e">
+      55
+    </address>
+    <superio_dev name="superio_ids_smsc"/>
+  </chip>
+  <chip name="VIA/Winbond/Nuvoton/Fintek">
+    <address name="2e">
+      87,87
+    </address>
+    <address name="4e">
+      87,87
+    </address>
+    <superio_dev name="superio_ids_winbond"/>
+  </chip>
+  <chip name="ITE">
+    <address name="2e">
+      87,01,55,55
+    </address>
+    <address name="4e">
+      87,01,55,aa
+    </address>
+    <superio_dev name="superio_ids_ite"/>
+  </chip>
+</superio>
